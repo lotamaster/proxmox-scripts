@@ -18,8 +18,8 @@ Backs up a mongodb database to Google Drive.
 #### Args
 | Arg | Description |
 |---|---|
-| 1. GDRIVE_FOLDER_ID | Folder ID of the directory in google drive. Can easily be found in the url |
-| 2. SERVICE_ACCOUNT_FILE_NAME | Name of the service account json file. After installing gdrive2, the files should be placed in `/root/.gdrive/` |
-| 3. PREVIOUS_BACKUPS_TO_KEEP | Number of previous backups to keep. E.g. in order to keep 5 backups always, set this to 4 |
-| 4. DB_HOST | Location of the database |
-| 5. DB_NAME | Name of the database to back up |
+| GDRIVE_FOLDER_ID | Folder ID of the directory in google drive. Can easily be found in the url |
+| SERVICE_ACCOUNT_FILE_NAME | Name of the service account json file. After installing gdrive2, the file should be placed in `/root/.gdrive/` |
+| PREVIOUS_BACKUPS_TO_KEEP | Number of previous backups to keep. For example, in order to keep 5 backups always, set this to 4 |
+| DB_HOST | Location of the database |
+| DB_NAME | Name of the database to back up |
